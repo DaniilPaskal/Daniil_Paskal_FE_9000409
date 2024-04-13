@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC00E66C2BCAD14A00CB4496 /* HistoryItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC00E66A2BCAD14A00CB4496 /* HistoryItem+CoreDataClass.swift */; };
+		AC00E66D2BCAD14A00CB4496 /* HistoryItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC00E66B2BCAD14A00CB4496 /* HistoryItem+CoreDataProperties.swift */; };
+		AC00E66F2BCAD31500CB4496 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC00E66E2BCAD31500CB4496 /* HistoryTableViewCell.swift */; };
+		AC00E6712BCAE58600CB4496 /* SaveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC00E6702BCAE58600CB4496 /* SaveSearch.swift */; };
 		AC0E58802BC1133B0014B5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E587F2BC1133B0014B5B9 /* AppDelegate.swift */; };
 		AC0E58822BC1133B0014B5B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E58812BC1133B0014B5B9 /* SceneDelegate.swift */; };
 		AC0E58842BC1133B0014B5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E58832BC1133B0014B5B9 /* ViewController.swift */; };
@@ -14,9 +18,21 @@
 		AC0E588A2BC1133B0014B5B9 /* Daniil_Paskal_FE_9000409.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC0E58882BC1133B0014B5B9 /* Daniil_Paskal_FE_9000409.xcdatamodeld */; };
 		AC0E588C2BC1133C0014B5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0E588B2BC1133C0014B5B9 /* Assets.xcassets */; };
 		AC0E588F2BC1133C0014B5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0E588D2BC1133C0014B5B9 /* LaunchScreen.storyboard */; };
+		AC0E589A2BC11DCE0014B5B9 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E58992BC11DCE0014B5B9 /* Weather.swift */; };
+		AC0E589C2BC11E370014B5B9 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E589B2BC11E370014B5B9 /* WeatherView.swift */; };
+		AC811D2F2BC68B1A00E01063 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC811D2E2BC68B1A00E01063 /* DirectionsView.swift */; };
+		ACB6FB7C2BC6856F00A1C75A /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6FB7B2BC6856F00A1C75A /* News.swift */; };
+		ACB6FB7E2BC6858700A1C75A /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6FB7D2BC6858700A1C75A /* NewsView.swift */; };
+		ACB6FB802BC688BB00A1C75A /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6FB7F2BC688BB00A1C75A /* NewsTableViewCell.swift */; };
+		ACDA8ABA2BCA273600961790 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA8AB92BCA273600961790 /* HistoryView.swift */; };
+		ACDA8ABC2BCA326800961790 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA8ABB2BCA326800961790 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC00E66A2BCAD14A00CB4496 /* HistoryItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AC00E66B2BCAD14A00CB4496 /* HistoryItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AC00E66E2BCAD31500CB4496 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		AC00E6702BCAE58600CB4496 /* SaveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSearch.swift; sourceTree = "<group>"; };
 		AC0E587C2BC1133B0014B5B9 /* Daniil_Paskal_FE_9000409.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daniil_Paskal_FE_9000409.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0E587F2BC1133B0014B5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC0E58812BC1133B0014B5B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +42,14 @@
 		AC0E588B2BC1133C0014B5B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0E588E2BC1133C0014B5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0E58902BC1133C0014B5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0E58992BC11DCE0014B5B9 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		AC0E589B2BC11E370014B5B9 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		AC811D2E2BC68B1A00E01063 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		ACB6FB7B2BC6856F00A1C75A /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		ACB6FB7D2BC6858700A1C75A /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		ACB6FB7F2BC688BB00A1C75A /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		ACDA8AB92BCA273600961790 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		ACDA8ABB2BCA326800961790 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +90,18 @@
 				AC0E588D2BC1133C0014B5B9 /* LaunchScreen.storyboard */,
 				AC0E58902BC1133C0014B5B9 /* Info.plist */,
 				AC0E58882BC1133B0014B5B9 /* Daniil_Paskal_FE_9000409.xcdatamodeld */,
+				AC00E66A2BCAD14A00CB4496 /* HistoryItem+CoreDataClass.swift */,
+				AC00E66B2BCAD14A00CB4496 /* HistoryItem+CoreDataProperties.swift */,
+				ACDA8ABB2BCA326800961790 /* Location.swift */,
+				AC00E6702BCAE58600CB4496 /* SaveSearch.swift */,
+				ACDA8AB92BCA273600961790 /* HistoryView.swift */,
+				AC00E66E2BCAD31500CB4496 /* HistoryTableViewCell.swift */,
+				ACB6FB7B2BC6856F00A1C75A /* News.swift */,
+				ACB6FB7D2BC6858700A1C75A /* NewsView.swift */,
+				ACB6FB7F2BC688BB00A1C75A /* NewsTableViewCell.swift */,
+				AC811D2E2BC68B1A00E01063 /* DirectionsView.swift */,
+				AC0E58992BC11DCE0014B5B9 /* Weather.swift */,
+				AC0E589B2BC11E370014B5B9 /* WeatherView.swift */,
 			);
 			path = Daniil_Paskal_FE_9000409;
 			sourceTree = "<group>";
@@ -141,9 +177,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC00E6712BCAE58600CB4496 /* SaveSearch.swift in Sources */,
+				ACDA8ABA2BCA273600961790 /* HistoryView.swift in Sources */,
+				ACB6FB802BC688BB00A1C75A /* NewsTableViewCell.swift in Sources */,
 				AC0E588A2BC1133B0014B5B9 /* Daniil_Paskal_FE_9000409.xcdatamodeld in Sources */,
+				AC00E66D2BCAD14A00CB4496 /* HistoryItem+CoreDataProperties.swift in Sources */,
+				ACB6FB7E2BC6858700A1C75A /* NewsView.swift in Sources */,
+				ACB6FB7C2BC6856F00A1C75A /* News.swift in Sources */,
+				ACDA8ABC2BCA326800961790 /* Location.swift in Sources */,
 				AC0E58842BC1133B0014B5B9 /* ViewController.swift in Sources */,
 				AC0E58802BC1133B0014B5B9 /* AppDelegate.swift in Sources */,
+				AC00E66F2BCAD31500CB4496 /* HistoryTableViewCell.swift in Sources */,
+				AC0E589A2BC11DCE0014B5B9 /* Weather.swift in Sources */,
+				AC00E66C2BCAD14A00CB4496 /* HistoryItem+CoreDataClass.swift in Sources */,
+				AC0E589C2BC11E370014B5B9 /* WeatherView.swift in Sources */,
+				AC811D2F2BC68B1A00E01063 /* DirectionsView.swift in Sources */,
 				AC0E58822BC1133B0014B5B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,8 +350,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,8 +378,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
